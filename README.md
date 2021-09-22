@@ -20,8 +20,8 @@ Prefix used: "+"
 
 ## Events
 
-- guildMemberAdd = replies with a pong!, and the current ping / latency
-- guildMemberRemove = sends a message with the same text as your message and deletes your message
+- guildMemberAdd = Creates an Embed when someone joins the server
+- guildMemberRemove = Creates a Goodbye Embed when someone leave the server
 
 ### Notes:
 
