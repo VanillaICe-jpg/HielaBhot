@@ -13,6 +13,7 @@ Prefix used: "+"
 | Commands | Description |
 | --- | --- |
 | ping | replies with a pong!, and the current ping / latency |
+| say | sends a message with the same text as your message and deletes your message |
 
 
 ### Notes:
