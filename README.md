@@ -15,7 +15,7 @@ Notes:
 Theres no "config.json" at
 - src
   - Data
-"config.json" includes "token" and "prefix"
+   - "config.json" includes "token" and "prefix"
 
 >Sorry for my English.
 >I'll add more info and commands in a future.
