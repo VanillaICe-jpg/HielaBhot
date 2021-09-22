@@ -13,7 +13,7 @@ ping : replies with a pong!, and the current ping / latency
 
 Notes:
 Theres no "config.json" at
--  src
+- src
   - Data
 "config.json" includes "token" and "prefix"
 
