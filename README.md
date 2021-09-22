@@ -22,5 +22,7 @@ Theres no "config.json" at
   - Data
    - Config.json" includes "token" and "prefix"
 
+### Own comments
+
 >Sorry for my English.
 >I'll add more info and commands in a future.
