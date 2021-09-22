@@ -6,16 +6,16 @@
 
 Prefix used: "+"
 
-commands are:
-```
-ping : replies with a pong!, and the current ping / latency 
-```
+| Commands | Description |
+| ping | replies with a pong!, and the current ping / latency |
+|  |  |
+
 
 Notes:
 Theres no "config.json" at
 - src
   - Data
-    -config.json" includes "token" and "prefix"
+    - Config.json" includes "token" and "prefix"
 
 >Sorry for my English.
 >I'll add more info and commands in a future.
