@@ -13,5 +13,12 @@ module.exports = new Event("messageCreate", (client, message) => {
 
   if (!command) return message.reply(`${args[0]} is not a valid command!`);
 
+  const permission = message.member.permissions.has(command.permission, true);
+
+  if (!permission)
+    return message.reply(
+      `You do not have the permission \´${command.permission}\` to run this command!`
+    );
+
   command.run(message, args, client);
 });
