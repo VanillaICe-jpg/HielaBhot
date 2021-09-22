@@ -1,4 +1,4 @@
-# HielaThot
+# HielaBhot
 ## Discord bot developed on Js.
 
 - ***"HielaThot version": "1.0.0"***
