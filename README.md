@@ -7,8 +7,8 @@
 Prefix used: "+"
 
 | Commands | Description |
+| --- | --- |
 | ping | replies with a pong!, and the current ping / latency |
-|  |  |
 
 
 Notes:
