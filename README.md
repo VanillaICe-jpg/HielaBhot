@@ -35,6 +35,7 @@ Theres no "config.json" at
 
 ### Own comments
 
+>IT NEEDS ADMIN for some commands (or it'll crash lol)
 > Sorry for my English.
 > I'll add more info and commands in a future.
 > sorry It's not commented.
