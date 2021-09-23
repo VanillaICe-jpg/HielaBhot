@@ -34,5 +34,7 @@ Theres no "config.json" at
 ### Own comments
 
 > Sorry for my English.
+> 
 > I'll add more info and commands in a future.
+> 
 > sorry It's not commented.
