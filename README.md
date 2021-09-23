@@ -10,18 +10,20 @@
 
 Prefix used: "+"
 
-| Commands | Description                                                                                  |
-| -------- | -------------------------------------------------------------------------------------------- |
-| ping     | replies with a pong!, and the current ping / latency                                         |
-| say      | sends a message with the same text as your message and deletes your message                  |
-| sayS     | Makes the bot says what you want!, and it'll be deleted after your amount of time in seconds |
-| intro    | Shows an introduction embed of the bot                                                       |
-| clear    | clear the amount of messages that you want                                                   |
+| Commands  | Description                                                                                  |
+| --------- | -------------------------------------------------------------------------------------------- |
+| ping      | replies with a pong!, and the current ping / latency                                         |
+| say       | sends a message with the same text as your message and deletes your message                  |
+| sayS      | Makes the bot says what you want!, and it'll be deleted after your amount of time in seconds |
+| intro     | Shows an introduction embed of the bot                                                       |
+| giveRol   | Gives a User the rol writted                                                                 |
+| removeRol | Removes a User a rol writted                                                                 |
+| clear     | clear the amount of messages that you want                                                   |
 
 ## Events
 
-- guildMemberAdd = Creates an Embed when someone joins the server
-- guildMemberRemove = Creates a Goodbye Embed when someone leave the server
+- guildMemberAdd = replies with a pong!, and the current ping / latency
+- guildMemberRemove = sends a message with the same text as your message and deletes your message
 
 ### Notes:
 
@@ -29,12 +31,10 @@ Theres no "config.json" at
 
 - src
   - Data
-  - Config.json" includes "token" and "prefix"
+  - Config.json" includes "token" and "prefix" and DatabaseURL
 
 ### Own comments
 
 > Sorry for my English.
-> 
 > I'll add more info and commands in a future.
-> 
 > sorry It's not commented.
