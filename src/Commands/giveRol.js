@@ -3,6 +3,7 @@ const Command = require("../Structures/Command.js");
 module.exports = new Command({
   name: "giveRol",
   description: "gives a User the rol that you want",
+  parameters: "<@user_to_rol> <roleName>",
   permission: "MANAGE_ROLES",
 
   async run(message, args, client) {

@@ -3,9 +3,7 @@ const Event = require("../Structures/Event.js");
 const Discord = require("discord.js");
 
 module.exports = new Event("guildMemberRemove", (client, member) => {
-  const channel = member.guild.channels.cache.find(
-    (c) => c.name == "welcome-and-more"
-  );
+  const channel = member.guild.channels.cache.find((c) => c.name == "general");
   if (!channel) return;
 
   const embed = new Discord.MessageEmbed();

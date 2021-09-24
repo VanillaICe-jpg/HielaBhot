@@ -3,7 +3,8 @@ const Command = require("../Structures/Command.js");
 module.exports = new Command({
   name: "sayE",
   description:
-    "Makes the bot says what you want!, and it'll be deleted after your amount of time in seconds",
+    "Makes the bot says what you want!\n(and it'll be deleted after your amount of time in seconds)",
+  parameters: "<Time_in_seconds> <text to send>",
   permission: "SEND_MESSAGES",
 
   async run(message, args, client) {

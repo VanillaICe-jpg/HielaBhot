@@ -3,6 +3,7 @@ const Command = require("../Structures/Command.js");
 module.exports = new Command({
   name: "removeRol",
   description: "removes a User the rol that you want",
+  parameters: "<@user_to_Unrol> <roleName>",
   permission: "MANAGE_ROLES",
 
   async run(message, args, client) {

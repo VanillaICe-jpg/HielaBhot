@@ -1,0 +1,15 @@
+{
+  "name": "tinyice",
+  "version": "1.0.11",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isracm",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.2.0-dev.1632225801.92f6471",
+    "mongoose": "^6.0.7"
+  }
+}

@@ -1,7 +1,7 @@
 const Event = require("../Structures/Event.js");
 
 module.exports = new Event("messageCreate", (client, message) => {
-  console.log(message.content);
+  // console.log(message.content);
 
   if (message.author.bot) return;
 

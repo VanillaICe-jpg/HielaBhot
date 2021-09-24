@@ -2,7 +2,7 @@
 
 ## Discord bot developed on Js.
 
-- **_"HielaBhot version": "1.0.1"_**
+- **_"HielaBhot version": "1.0.11"_**
 - **_"discord.js": "^13.2.0-dev.1632225801.92f6471"_**
 - **_"Node.js --version": "16.9.1"_**
 
@@ -12,6 +12,7 @@ Prefix used: "+"
 
 | Commands  | Description                                                                                  |
 | --------- | -------------------------------------------------------------------------------------------- |
+| help      | Prints a message with all the commands, their parameters and descriptions!                   |
 | ping      | replies with a pong!, and the current ping / latency                                         |
 | say       | sends a message with the same text as your message and deletes your message                  |
 | sayS      | Makes the bot says what you want!, and it'll be deleted after your amount of time in seconds |
@@ -35,7 +36,6 @@ Theres no "config.json" at
 
 ### Own comments
 
->IT NEEDS ADMIN for some commands (or it'll crash lol)
 > Sorry for my English.
 > I'll add more info and commands in a future.
 > sorry It's not commented.

@@ -1,31 +1,31 @@
 const Command = require("../Structures/Command.js");
 
 const Discord = require("discord.js");
-
+const package = require("../Data/package.json");
 module.exports = new Command({
   name: "intro",
-  description: "Shows an introduction embed of the bot",
+  description: "Let me introduce myself; HielaBhot! ",
   permission: "SEND_MESSAGES",
   async run(message, args, client) {
     const embed = new Discord.MessageEmbed();
 
     embed
-      .setTitle("This is Title embed")
+      .setTitle("Nice to meet you! I'm HielaBhot")
       .setURL("https://github.com/VanillaICe-jpg/HielaBhot")
-      .setAuthor(
-        //you can use message.author.XXXX to print who send the message
+      /*.setAuthor(
+        you can use message.author.XXXX to print who send the message
         client.user.username,
         client.user.avatarURL({ dynamic: true }),
         "https://github.com/VanillaICe-jpg/HielaBhot"
-      )
+      )*/
       .setDescription(
-        "This is explaining stuff, \nhere is a link of the repository : [github](https://github.com/VanillaICe-jpg/HielaBhot)"
+        "I'm glad to be here, I'm like an administration bot, \nBe aware! I want to put a lot of funny stuff in my commands. \n\nIf you wanna see my progress, here is a link of the repository\n[github](https://github.com/VanillaICe-jpg/HielaBhot)\n"
       )
       .setColor("RANDOM")
       .setThumbnail(client.user.avatarURL({ dynamic: true }))
       .setTimestamp(message.createdTimestamp)
       //.setImage(link of the image);
-      .addField("Bot Version", "1.0.0", true)
+      .addField(`Bot Version`, package.version, true)
       .addFields(
         {
           name: "Bot Name",
@@ -34,8 +34,7 @@ module.exports = new Command({
         },
         {
           name: "Developer(s)",
-          value: "Israel Cm",
-          value: "aka. ICe / Hielito",
+          value: "Israel Cruz M.\nAKA. ICe / Hielito",
           inline: true,
         }
       );
