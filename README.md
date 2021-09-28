@@ -41,3 +41,10 @@ Theres no "config.json" at
 > I'll add more info and commands in a future.
 
 > sorry It's not commented.
+
+### Actual Bugs
+
+> if the bot is not administrator and you ask him for giving or removing roles, it crashes
+
+> If you delete the messages that the bot should delete in time, it crashes
+
