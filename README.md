@@ -23,8 +23,8 @@ Prefix used: "+"
 
 ## Events
 
-- guildMemberAdd = replies with a pong!, and the current ping / latency
-- guildMemberRemove = sends a message with the same text as your message and deletes your message
+- guildMemberAdd = welcomes the new Member of your Server!
+- guildMemberRemove = advertise your server that someone left the server :(
 
 ### Notes:
 
